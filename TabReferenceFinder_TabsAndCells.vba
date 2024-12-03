@@ -6,7 +6,7 @@ Sub FindTabReferences()
     Dim outputRow As Long
     Dim formula As String
     
-    tabName = "Forecast Changes" 'Replace with the exact name of the tab you want to check
+    tabName = "Summary" 'Replace with the exact name of the tab you want to check
     
     ' Create a new sheet for results
     On Error Resume Next
