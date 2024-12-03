@@ -38,8 +38,8 @@ This script identifies all worksheet tabs that reference a specified tab and lis
 ## 🔧 How to Use These Scripts
 
 1. **Download the `.bas` files**:
-   - [TabReferenceFinder_TabsOnly.bas](#)
-   - [TabReferenceFinder_TabsAndCells.bas](#)
+   - [TabReferenceFinder_TabsOnly.vba](#)
+   - [TabReferenceFinder_TabsAndCells.vba](#)
 
 2. **Import into Excel**:
    - Open the VBA editor (`Alt + F11`).
