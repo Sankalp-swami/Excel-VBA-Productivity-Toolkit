@@ -35,6 +35,12 @@ This script identifies all worksheet tabs that reference a specified tab and lis
 - Run the macro.
 - The script will create a new sheet named `Detailed References` with a detailed list of tab names and cell addresses referencing the target tab.
 
+File Name: AnalyzeWorkbookReferences.bas
+Description: This VBA script provides a comprehensive analysis of tab references in an Excel workbook. It identifies:
+
+Tabs Referencing Each Tab: Lists all tabs that reference the current tab in their formulas.
+Tabs Referenced by Each Tab: Lists all tabs referenced within the current tab's formulas.
+The output is summarized in a new worksheet, Workbook References Summary, with columns for the tab name, referencing tabs, and referenced tabs. Handles complex formulas with multiple tab references, self-references, and ensures compatibility with large workbooks.
 ---
 
 ## 🔧 How to Use These Scripts
