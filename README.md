@@ -38,7 +38,7 @@ This script identifies all worksheet tabs that reference a specified tab and lis
 ### 3. Filter Rows by Highlighted Color in Pivot Tables
 **File Name**: `FilterRowsByColor.vba`
 
-**Description**: 
+**Description**:  
 This VBA function allows users to filter and analyze only the rows highlighted in a specific color (e.g., green) within an Excel dataset. Since Excel does not natively support filtering by cell color in Pivot Tables, this script provides a helper function to check whether an entire row is filled with a specific color. It then labels each row accordingly, enabling filtering in Pivot Tables or other data analysis.
 
 **Usage**:
@@ -63,7 +63,7 @@ Why Use This Script?
 ### 4. Analyze Workbook References
 **File Name**: `AnalyzeWorkbookReferences.bas`
 
-**Description**: 
+**Description**:  
 This VBA script provides a comprehensive analysis of tab references in an Excel workbook. It identifies:
 - Tabs Referencing Each Tab: Lists all tabs that reference the current tab in their formulas.
 - Tabs Referenced by Each Tab: Lists all tabs referenced within the current tab's formulas.
