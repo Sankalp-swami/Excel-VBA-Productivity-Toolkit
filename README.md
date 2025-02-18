@@ -70,7 +70,7 @@ This VBA script provides a comprehensive analysis of tab references in an Excel 
 - Tabs Referenced by Each Tab: Lists all tabs referenced within the current tab's formulas.
 - The output is summarized in a new worksheet, "Workbook References Summary", with columns for the tab name, referencing tabs, and referenced tabs. Handles complex formulas with multiple tab references, self-references, and ensures compatibility with large workbooks.
 
-### 🔧 How to Use These Scripts
+## 🔧 How to Use These Scripts
 - Download the .vba files:
 - TabReferenceFinder_TabsOnly.vba
 - TabReferenceFinder_TabsAndCells.vba
@@ -84,15 +84,15 @@ This VBA script provides a comprehensive analysis of tab references in an Excel 
 - Set the required parameters (like tabName) in the VBA code.
 - Press F5 to run the macro.
 
-### 💡 Why Use These Scripts?
+## 💡 Why Use These Scripts?
 These tools are designed to:
 ✅ Simplify dependency analysis in large Excel workbooks.
 ✅ Save time by automating tedious manual checks.
 ✅ Minimize errors when modifying or deleting tabs in complex workbooks.
 ✅ Enable Pivot Table filtering based on row color.
 
-### 📂 Repository Goals
+## 📂 Repository Goals
 This repository aims to provide practical Excel VBA tools to address real-world problems encountered by professionals. Contributions and feedback are welcome to enhance and expand this collection!
 eeeeee
-### 📜 License
+## 📜 License
 This project is open-source and licensed under the MIT License
