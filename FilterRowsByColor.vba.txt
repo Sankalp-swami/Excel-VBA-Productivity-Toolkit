@@ -1,0 +1,21 @@
+' Paste "=IsRowGreen(A2:D2)" to the column you want to analyze
+Function IsRowGreen(rng As Range) As String
+    Dim cell As Range
+    Dim greenRow As Boolean
+    
+    greenRow = True ' Assume row is green until proven otherwise
+    
+    For Each cell In rng
+        ' Check if the cell background is NOT green. Change the RGB color as per the requirement
+        If cell.Interior.Color <> RGB(0, 255, 0) Then
+            greenRow = False ' Row is not fully green
+            Exit For
+        End If
+    Next cell
+    
+    If greenRow Then
+        IsRowGreen = "Green"
+    Else
+        IsRowGreen = "Other"
+    End If
+End Function
