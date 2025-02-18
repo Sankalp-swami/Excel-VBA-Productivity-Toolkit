@@ -50,9 +50,7 @@ This VBA function allows users to filter and analyze only the rows highlighted i
 =IsRowGreen(A2:D2)
 - Adjust A2:D2 to match your dataset’s full row range.
 - Drag down to apply the formula across all rows.
-
-- Use in a Pivot Table:
-
+Use in a Pivot Table:
 - Select the dataset (including the "Row Color" column).
 - Insert a Pivot Table (Insert > PivotTable).
 - Drag "Row Color" to the Filters area.
@@ -67,7 +65,6 @@ Why Use This Script?
 
 **Description**: 
 This VBA script provides a comprehensive analysis of tab references in an Excel workbook. It identifies:
-
 - Tabs Referencing Each Tab: Lists all tabs that reference the current tab in their formulas.
 - Tabs Referenced by Each Tab: Lists all tabs referenced within the current tab's formulas.
 - The output is summarized in a new worksheet, "Workbook References Summary", with columns for the tab name, referencing tabs, and referenced tabs. Handles complex formulas with multiple tab references, self-references, and ensures compatibility with large workbooks.
