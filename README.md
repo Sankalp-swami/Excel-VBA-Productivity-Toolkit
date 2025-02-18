@@ -50,7 +50,8 @@ This VBA function allows users to filter and analyze only the rows highlighted i
 =IsRowGreen(A2:D2)
 - Adjust A2:D2 to match your dataset’s full row range.
 - Drag down to apply the formula across all rows.
-Use in a Pivot Table:
+
+**Use in a Pivot Table**:  
 - Select the dataset (including the "Row Color" column).
 - Insert a Pivot Table (Insert > PivotTable).
 - Drag "Row Color" to the Filters area.
